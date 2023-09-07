@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <figure>
+          <img
+            src="./profile.jpeg"
+            alt="Gideon"
+            data-testid="slackDisplayImage"
+          />
+        </figure>
+        <h1 class="name" data-testid="slackUserName">Gideon-Dev</h1>
+        <h2 data-testid="myTrack">Front-end</h2>
+        <div class="date">
+          <p id="day" data-testid="currentDayOfTheWeek"></p>
+          <p id="time" data-testid="currentUTCTime"></p>
+        </div>
+        <p style="color: rgb(8, 14, 58)">
+          <a
+            href="https://github.com/gideon-del/hng-task-1"
+            target="_blank"
+            class="link"
+            data-testid="githubURL"
+            >Github</a
+          >
+        </p>
+      </div>
+    </main>
+  </body>
+</html>
